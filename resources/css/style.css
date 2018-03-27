@@ -1,6 +1,5 @@
-html, body {
-
-
+* {
+  margin: 0;
 }
 
 .wrapper {
@@ -9,8 +8,10 @@ html, body {
   font-weight: bold;
   display: flex;
   height: 60px;
-  margin-left: 20px;
-  margin-top: 0;
+  /* margin-left: 20px; */
+  margin-top: 10px;
+  /* border: 1px solid black; */
+  align-items: center;
 
 }
 
@@ -19,19 +20,21 @@ html, body {
   align-items: center;
   /* background-color: blue; */
   width: 100%;
+  padding-left: 20px;
+  border: 1px solid black;
 }
 
 .mytimes {
   margin-left: 15px;
   color: #42d0b3;
+
 }
 
 /* menu base styles */
 
 nav {
-  background-color: #3333;
+  /* background-color: #3333; */
   width: 100%;
-
 }
 
 nav ul {
@@ -39,15 +42,13 @@ nav ul {
   padding: 0;
   display: flex;
   justify-content: flex-end;
-  /* align-content: center; */
-
 }
+
 
 nav a {
   color: black;
   padding: 10px;
   margin: 10px;
-
 
 }
 
@@ -60,3 +61,136 @@ nav a {
     align-content: flex-start;
 
   } */
+
+hr {
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+/*  Large Column */
+.column {
+  display: flex;
+}
+
+.column.large {
+  width: 630px;
+  display: flex;
+  margin-left: 20px;
+
+}
+
+.column .large {
+  margin-right: 40px;
+  border: 1px solid black;
+
+}
+  .main {
+    border: 1px solid black;
+
+  }
+
+  .main .headline1 {
+    border: 1px solid black;
+  }
+
+  .main p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .orca {
+    border: 1px solid black;
+  }
+
+  .orca h2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .orca p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .fall {
+    border: 1px solid black;
+  }
+
+  .burger {
+    border: 1px solid black;
+  }
+
+  .burger h2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .burger p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .hipster {
+    border: 1px solid black;
+  }
+
+/*  Medium Column */
+.column.medium {
+  width: 300px;
+  display: flex;
+
+}
+
+.column .medium {
+  margin-right: 40px;
+  border: 1px solid black;
+}
+
+  .fbi {
+    border: 1px solid black;
+  }
+
+  .fbi h2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .fbi p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .cats {
+    border: 1px solid black;
+  }
+
+  .cats .headline4 {
+    border: 1px solid black;
+  }
+
+  .cats p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+/*  Small Column */
+  .column.small {
+    width: 240px;
+    display: flex;
+  }
+
+  .column .small {
+    border: 1px solid black;
+  }
+
+  .bites {
+    border: 1px solid black;
+  }
+
+  .bites .news {
+    border: 1px solid black;
+  }
+
+  .bites h3 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
