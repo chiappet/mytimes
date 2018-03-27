@@ -1,0 +1,61 @@
+html, body {
+
+
+}
+
+.wrapper {
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  display: flex;
+  height: 60px;
+  margin-left: 20px;
+  margin-top: 0;
+
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  /* background-color: blue; */
+  width: 100%;
+}
+
+.mytimes {
+  margin-left: 15px;
+  color: #42d0b3;
+}
+
+/* menu base styles */
+
+nav {
+  background-color: #3333;
+  width: 100%;
+  justify-content: center;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: flex-end;
+  /* align-content: center; */
+
+}
+
+nav a {
+  color: black;
+  padding: 10px;
+  margin: 10px;
+
+}
+
+/* flex styles */
+
+/* @media screen and (min-width: 768px) {
+  nav ul {
+    display: flex;
+    justify-content: flex-end;
+    align-content: flex-start;
+
+  } */
