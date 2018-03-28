@@ -72,12 +72,13 @@ hr {
 
 .column {
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
 }
 
 .column.large {
   width: 630px;
   margin-left: 20px;
+  /* display: flex; */
 
 }
 
@@ -86,9 +87,8 @@ hr {
   border: 1px solid black;
   max-width: 635px;
 
-
-
 }
+
 
 /* main story */
 
@@ -100,8 +100,6 @@ p {
 
   .main {
     border: 1px solid black;
-
-
 
   }
 
