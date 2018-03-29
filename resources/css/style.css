@@ -70,7 +70,7 @@ hr {
 
 .column {
   display: flex;
-  /* justify-content: center; */
+  justify-content: center;
 }
 
 .column.large {
@@ -252,6 +252,7 @@ p {
   /* border: 1px solid black; */
   max-width: 300px;
   display: inline-block;
+  flex-shrink: 0;
 
 }
 
